@@ -20,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/Fableverse/craft/issues"
   },
-  "homepage": "https://github.com/Fableverse/craft#readme"
+  "homepage": "https://github.com/Fableverse/craft#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  }
 }
