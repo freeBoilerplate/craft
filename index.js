@@ -1,2 +1,2 @@
-export { default as Button } from './lib/src/components/button/Button'
-export { default as H1 } from './lib/src/components/h1/H1'
+export { default as Button } from './components/button/Button'
+export { default as H1 } from './components/h1/H1'

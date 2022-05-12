@@ -1,10 +1,12 @@
 //import React, { useState, useEffect } from 'react';
+import React from 'react';
+import './Button.css'
 
 function Button({ children}) {
     return <div>
-        <h1>
+        <button class="craft-button-primary">
             {children}
-        </h1>
+        </button>
     </div>
 }
 
