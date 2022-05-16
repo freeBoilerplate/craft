@@ -3,7 +3,7 @@
     <img alt="fableverse logo" src="https://user-images.githubusercontent.com/34040658/166625392-dcec9672-fd76-4914-a991-715c58cdd3c5.png" width="100px"/><br/>
     Craft
   </h1>
-  <h4> Small description of project </h4>
+  <h4> Craft is a design system, built to support our services, with various react components. </h4>
   
   <a href="https://github.com/Fableverse/api-template/releases"
     ><img
