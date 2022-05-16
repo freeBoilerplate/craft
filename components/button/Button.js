@@ -2,9 +2,22 @@
 import React from 'react';
 import './Button.css'
 
-function Button({ children}) {
+function Button({ children, handleClick, type, outline, disabled, size }) {
+    const types = ["primary", "secondary", "success", "danger"]
+    const sizes = ["sm", "md", "lg"]
+
+    // ex: craft-btn-outline-primary md disabled
+    // ex: craft-btn-primary md disabled
     return <div>
-        <button class="craft-button-primary">
+        <button 
+            class={
+                "craft-button" + (outline ? "-outline" : "") + 
+                (types.includes(type) ? "-" + type : "-primary") + 
+                (sizes.includes(size) ? " " + size : " md") +
+                (disabled ? " disabled" : "")
+            } 
+            onClick={handleClick}
+        >
             {children}
         </button>
     </div>
