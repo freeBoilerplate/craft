@@ -1,4 +1,5 @@
-.craft-button-primary {
+/* ======== PRIMARY BUTTON ======== */
+.craft-btn-primary {
     background-color: white;
     border-width: 5px;
     font-weight: 600;
@@ -7,7 +8,22 @@
     border-radius: 6px;
 }
 
-.craft-button-primary:hover {
+.craft-btn-primary:hover {
     cursor: pointer;
     background-color: rgb(247, 247, 247);
 }
+
+.craft-btn-outline-primary {
+
+}
+
+.craft-btn-outline-primary:hover {
+    cursor: pointer;
+    background-color: rgb(247, 247, 247);
+}
+
+/* ======== SECONDARY BUTTON ======== */
+
+/* ======== SUCCESS BUTTON ======== */
+
+/* ======== DANGER BUTTON ======== */

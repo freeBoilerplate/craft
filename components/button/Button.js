@@ -11,7 +11,7 @@ function Button({ children, handleClick, type, outline, disabled, size }) {
     return <div>
         <button 
             class={
-                "craft-button" + (outline ? "-outline" : "") + 
+                "craft-btn" + (outline ? "-outline" : "") + 
                 (types.includes(type) ? "-" + type : "-primary") + 
                 (sizes.includes(size) ? " " + size : " md") +
                 (disabled ? " disabled" : "")
